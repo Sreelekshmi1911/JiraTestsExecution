@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-27T20:51:01 IST" name="Default suite" finished-at="2023-03-27T20:55:12 IST" duration-ms="250915">
+    <groups>
+    </groups>
+    <test started-at="2023-03-27T20:51:01 IST" name="Default test" finished-at="2023-03-27T20:55:12 IST" duration-ms="250915">
+      <class name="jira.TestCaseExeJira">
+        <test-method is-config="true" signature="jiraInitialSetup()[pri:0, instance:jira.TestCaseExeJira@6ae5aa72]" started-at="2023-03-27T20:51:01 IST" name="jiraInitialSetup" finished-at="2023-03-27T20:51:37 IST" duration-ms="36383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraInitialSetup -->
+        <test-method signature="jiraTCExecution()[pri:0, instance:jira.TestCaseExeJira@6ae5aa72]" started-at="2023-03-27T20:51:37 IST" name="jiraTCExecution" finished-at="2023-03-27T20:55:10 IST" duration-ms="212359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraTCExecution -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:jira.TestCaseExeJira@6ae5aa72]" started-at="2023-03-27T20:55:10 IST" name="teardown" finished-at="2023-03-27T20:55:12 IST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- jira.TestCaseExeJira -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
